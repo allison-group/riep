@@ -12,6 +12,7 @@ Protein and membrane .gro file names should exclude the '.gro' suffix.
 
 GROMACS location must be defined through environment variable 'EBROOTGROMACS'.
 Suffix to executables can be defined through '-suffix' option.
+Prefix ('g_' or 'gmx') must be specified (depends on GROMACS version).
 
 Protein-membrane distance is calculated using GROMACS mindist.  The two groups
 between which the distance is calculated must be passed by number.  For a
